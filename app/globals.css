@@ -15,7 +15,10 @@ body {
 @layer base {
     :root {
         --qr-login-background: #FFFFFF;
-        --sidebar-background: #fff;
+        --layout-border-color: #E5E6E8;
+        --sidebar-background: #F0F3F6;
+        --footer-background: #FAFAFA;
+        --footer-background-color: var(--layout-border-color);
         --background: 0 0% 100%;
         --foreground: 0 0% 3.9%;
         --card: 0 0% 100%;
@@ -45,7 +48,10 @@ body {
 
     .dark {
         --qr-login-background: #1B1B24;
+        --layout-border-color: #42424C;
         --sidebar-background: #1A1A21;
+        --footer-background: #2D2D38;
+        --footer-background-color: var(--layout-border-color);
         --background: 0 0% 3.9%;
         --foreground: 0 0% 98%;
         --card: 0 0% 3.9%;

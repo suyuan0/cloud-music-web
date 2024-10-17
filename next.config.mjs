@@ -6,6 +6,10 @@ const nextConfig = {
       {
         protocol: "https",
         hostname: "music.163.com"
+      },
+      {
+        protocol: "http",
+        hostname: "p1.music.126.net"
       }
     ]
   }

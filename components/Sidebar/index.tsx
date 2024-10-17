@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <aside className="w-60 shadow-2xl dark:shadow-black bg-[var(--sidebar-background)] rounded-xl">
+    <aside className="w-60 bg-[var(--sidebar-background)]">
       {/*  logo  */}
       <Link href="/">
         <h1 className="flex items-center justify-center gap-4 py-2">
